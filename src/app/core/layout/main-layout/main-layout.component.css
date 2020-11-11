@@ -16,6 +16,14 @@
 
 .container-fluid2 {
   background-color: #7c2acd !important;
-  height: 130%;
+  height: 150%;
   width: 100%;
+}
+
+@media (max-width: 479px) {
+  .container-fluid2 {
+    background-color: #7c2acd !important;
+    height: 170%;
+    width: 100%;
+  }
 }
