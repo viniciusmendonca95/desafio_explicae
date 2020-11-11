@@ -19,11 +19,11 @@ ng serve
 O sistema será acessado pelo link: http://localhost:4200/
 
 ## Deploy
-O Deploy do sistema foi feito pelo fire base e também pode ser acessado através do link: XXX
+O Deploy do sistema foi feito pelo Firebase e também pode ser acessado através do link: https://desafio--explicae.web.app/
   
 
 ## Informação do Sistema
-O sistema foi desenvolvido com o Angular 10 e o deploy foi feito no Heroku.
+O sistema foi desenvolvido com o Angular 10.
 
 <b>Seguem imagens das páginas:</b>
 
