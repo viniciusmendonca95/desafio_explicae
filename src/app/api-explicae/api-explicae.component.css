@@ -11,3 +11,17 @@
 .botao_gerar_usuario {
   margin-top: 5%;
 }
+
+@media (max-width: 479px) {
+  .api_banner {
+    width: 40%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 479px) {
+  .explicae_banner {
+    width: 50%;
+    height: 60%;
+  }
+}

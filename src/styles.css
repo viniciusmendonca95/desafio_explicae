@@ -24,3 +24,9 @@ body {
 .mat-raised-button {
   min-width: 83px !important;
 }
+
+@media (max-width: 479px) {
+  .mat-raised-button {
+    min-width: 35px !important;
+  }
+}

@@ -17,15 +17,15 @@
 </div>
 <br>
 <div class="tabela-sorteio">
-    <div style="width: 830px;">
+    <div class="tabela-botoes">
         <button mat-raised-button class="{{ listaNumerosSorteadosTabela1.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
     </div>
     <br>
-    <div style="width: 830px;">
+    <div class="tabela-botoes">
         <button mat-raised-button class="{{ listaNumerosSorteadosTabela2.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
     </div>
     <br>
-    <div style="width: 830px;">
+    <div class="tabela-botoes">
         <button mat-raised-button class="{{ listaNumerosSorteadosTabela3.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
     </div>
 </div>

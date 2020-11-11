@@ -11,3 +11,17 @@
 .content {
   color: white;
 }
+
+@media (max-width: 479px) {
+  .fileupload_banner {
+    width: 30%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 479px) {
+  .explicae_banner {
+    width: 50%;
+    height: 60%;
+  }
+}

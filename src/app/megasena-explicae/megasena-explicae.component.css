@@ -17,7 +17,53 @@
   margin-right: 32%;
 }
 
+.tabela-botoes {
+  width: 830px;
+}
+
 .button-sorteado {
   background-color: #ff00ff;
   width: 64px;
+}
+
+@media (max-width: 479px) {
+  .tabela-botoes {
+    width: 384px;
+  }
+}
+
+@media (max-width: 479px) {
+  .megasena_banner {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  .explicae_banner {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  .tabela-sorteio {
+    width: 50%;
+    height: 50%;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 479px) {
+  .button-sorteio {
+    max-width: 5%;
+  }
+}
+
+@media (max-width: 479px) {
+  .button-sorteado {
+    background-color: #ff00ff;
+    max-width: 5%;
+  }
 }
