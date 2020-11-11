@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "desafio--explicae": {
+      "hosting": {
+        "desafio-explicae": [
+          "desafio--explicae"
+        ]
+      }
+    }
+  }
+}
