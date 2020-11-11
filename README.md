@@ -1,5 +1,5 @@
 # Desafio Explicaê 
-Desafio teste de selação para o time de TI do Explicaê.
+Desafio teste de seleção para o time de TI do Explicaê.
 Desenvolvido por Vinícius José Santana de Mendonça.
 
 ## Instalação dos requisitos
@@ -47,7 +47,7 @@ Ao clicar em "API" será aberto a tela da API.
 <b>File Upload</b>
 
 A tela de File Upload contém um botão "Escolher Arquivo" no centro da tela onde ao ser clicado, abrirá uma box para o envio de um arquivo de texto qualquer.
-Ao ser adicionado um arquivo de texto, todo o texto será informado em baixo do botão.
+Ao ser adicionado um arquivo de texto, todo o texto será informado abaixo do botão.
 
 ![File Upload (Sem arquivo)](https://i.imgur.com/C7akz83.png)
 
