@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+    <img
+      src="../../../assets/images/explicae_banner.png"
+      class="explicae_banner"
+    />
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+    <img
+      src="../../../assets/images/megasena_banner.png"
+      class="megasena_banner"
+    />
+  </div>
+</div>
+<div style="text-align: center">
+    <button mat-raised-button color="primary" (click)="refresh()">Sortear</button>
+</div>
+<br>
+<div class="tabela-sorteio">
+    <div style="width: 830px;">
+        <button mat-raised-button class="{{ listaNumerosSorteadosTabela1.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
+    </div>
+    <br>
+    <div style="width: 830px;">
+        <button mat-raised-button class="{{ listaNumerosSorteadosTabela2.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
+    </div>
+    <br>
+    <div style="width: 830px;">
+        <button mat-raised-button class="{{ listaNumerosSorteadosTabela3.indexOf(i+1) === -1 ? 'button-sorteio' : 'button-sorteado'}}" *ngFor="let numero of arraySessenta(60); let i = index">{{ i + 1 }}</button>
+    </div>
+</div>

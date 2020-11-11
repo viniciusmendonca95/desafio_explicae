@@ -1,0 +1,23 @@
+.explicae_banner {
+  height: 200px;
+  margin-top: 5%;
+}
+
+.megasena_banner {
+  height: 150px;
+  margin-top: 5%;
+}
+
+.button-sorteio {
+  width: 64px;
+}
+
+.tabela-sorteio {
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+.button-sorteado {
+  background-color: #ff00ff;
+  width: 64px;
+}

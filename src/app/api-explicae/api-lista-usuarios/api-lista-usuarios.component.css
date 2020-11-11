@@ -1,0 +1,28 @@
+.card {
+  width: 30%;
+  height: 35%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 10px;
+}
+
+.info {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.explicae_banner {
+  height: 200px;
+  margin-top: 5%;
+}
+
+.api_banner {
+  height: 200px;
+  margin-top: 5%;
+}
+
+.botao_gerar_outro_usuario {
+  margin-top: 5%;
+  background-color: #7c2acd;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.conteudo {
+  height: 100% !important;
+}
+
+.toolbar {
+  height: 10%;
+}
+
+.sidenav-container {
+  height: 90%;
+}
+
+.container-fluid2 {
+  background-color: #7c2acd !important;
+  height: 130%;
+  width: 100%;
+}
